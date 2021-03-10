@@ -1,0 +1,55 @@
+body {
+    background: #212429 url(../img/register_bg.jpg) no-repeat;
+}
+
+.content .form {
+    padding: 50px;
+    margin-left: 150px;
+    margin-bottom: 400px;
+}
+
+form {
+    padding: 20px 16px;
+    color: #b8b6b4;
+}
+
+form .title {
+    margin-bottom: 30px;
+    height: auto;
+    font-size: 44px;
+    color: white;
+}
+
+form .form_area {
+    margin-bottom: 30px;
+    width: 320px;
+    height: auto;
+}
+
+form .text {
+    display: block;
+    font-size: 20px;
+}
+
+form input[id="user_name"],form input[id="password"] {
+    display: block;
+    padding: 8px 6px;
+    margin-top: 5px;
+    width: 100%;
+    background-color: #32353C;
+    color: #E9E9E9;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    transition: border 0.5s;
+}
+
+form input[type="submit"] {
+    padding: 5px 50px;
+    font-size: 18px;
+    background-color: #47bfff;
+    color: #c3e1f8;
+    border-radius: 6px;
+    border: none;
+    transition: border 0.5s;
+}

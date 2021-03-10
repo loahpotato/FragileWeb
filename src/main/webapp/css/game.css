@@ -1,0 +1,223 @@
+body {
+  background-color: #1b2838;
+}
+
+
+#info {
+    margin-top: 50px;
+}
+
+#info .name {
+  width: 100%;
+  height: 80px;
+  font-size: 40px;
+  line-height: 80px;
+  color: white;
+  border-bottom: 1px solid#54a5d4;
+}
+
+#info .holder {
+    width: 100%;
+    height: 500px;
+    margin-top: 70px;
+    overflow: hidden;
+}
+
+#info .holder .video {
+    float: left;
+    width: 700px;
+    height: 390px;
+    margin-bottom: 10px;
+}
+
+#info .holder .video video {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+#info .holder .intro {
+    float: right;
+    width: 370px;
+    height: 500px;
+    margin-left: 10px;
+    background-color: rgba(0,0,0,0.2);
+}
+
+#info .holder .intro img{
+    width: 370px;
+    height: 165px;
+}
+
+#info .holder .intro .gameinfo {
+    width: 350px;
+    height: 165px;
+    margin: 10px 10px;
+    color: white;
+    font-size: 14px;
+    overflow: auto;
+}
+
+#info .holder .intro .review {
+    width: 350px;
+    height: 15px;
+    margin: 10px 10px;
+    line-height: 20px;
+    font-size: 13px;
+}
+
+#info .holder .intro .price {
+    width: 350px;
+    height: 20px;
+    margin: 20px 10px;
+    line-height: 20px;
+    font-size: 16px;
+    color: #54a5d4;
+}
+
+#info .holder .intro .buy {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+
+#info .holder .intro .buy input {
+    width: 150px;
+    height: 40px;
+    background: linear-gradient( to right, #75b022 5%, #588a1b 95%);
+    color: #d2efa9;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+#comment {
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+#comment h3 {
+    width: 100%;
+    height: 80px;
+    margin-bottom: 30px;
+    font-size: 40px;
+    line-height: 80px;
+    color: #54a5d4;
+    border-bottom: 1px solid white;
+}
+
+#comment .helpfulre {
+    float: left;
+    width: 700px;
+    height: 30px;
+    margin-bottom: 25px;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+#comment .recent {
+    float: right;
+    width: 370px;
+    height: 30px;
+    margin-bottom: 25px;
+    font-size: 16px;
+    line-height: 30px;
+    color: #ffffff;
+}
+
+#comment .left {
+    float: left;
+    box-sizing: border-box;
+    width: 700px;
+    height: 400px;
+    margin-bottom: 30px;
+    padding: 10px 10px;
+    background-color: rgba(0,0,0,0.1)
+}
+
+#comment .left .player {
+    float: left;
+    width: 240px;
+    height: 380px;
+    color: #c1dbf4;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#comment .left .player img {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+#comment .left .article {
+    float: left;
+    width: 440px;
+    height: 380px;
+}
+
+#comment .left .article .attitude {
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    color: #d6d7d8;
+    background-color: rgba(0,0,0,0.2);
+}
+
+#comment .left .article .date {
+    width: 100%;
+    height: 25px;
+    margin: 20px 0;
+    font-size: 14px;
+    line-height: 25px;
+    color: #8091a2;
+}
+
+#comment .left .article .concrete {
+    width: 100%;
+    height: 250px;
+    font-size: 13px;
+    line-height: 17px;
+    color: #acb2b8;
+    overflow: auto;
+}
+
+#comment .right {
+    float: right;
+    box-sizing: border-box;
+    width: 360px;
+    height: 158px;
+    margin-bottom: 10px;
+    background-color: rgba(0,0,0,0.07);
+}
+
+#comment .right .attitude {
+    width: 100%;
+    height: 25px;
+    font-size: 12px;
+    line-height: 25px;
+    color:#8091a2;
+    background-color: rgba(0,0,0,0.2);
+}
+
+#comment .right .date {
+    width: 340px;
+    height: 15px;
+    margin: 15px 10px;
+    font-size: 12px;
+    line-height: 15px;
+    color: #8091a2;
+}
+
+#comment .right .concrete {
+    width: 340px;
+    height: 80px;
+    margin: 0px 10px;
+    font-size: 12px;
+    line-height: 15px;
+    color: #9fb4c9;
+    overflow: auto;
+}

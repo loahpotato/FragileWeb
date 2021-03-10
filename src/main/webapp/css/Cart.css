@@ -1,0 +1,85 @@
+body {
+    background-color: #1b2838;
+}
+
+#cart {
+    margin-top: 70px;
+}
+
+#cart .total {
+    float: right;
+    width: 25%;
+    height: 30px;
+    padding-bottom: 20px;
+    margin-top: -10px;
+    line-height: 60px;
+    font-size: 20px;
+    color: #c6dbde;
+    border-bottom:1px solid #9fb4c9 ;
+}
+
+#cart .title {
+    width: 100%;
+    height: 60px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    line-height: 60px;
+    font-size: 30px;
+    color: white;
+    border-bottom:1px solid #9fb4c9 ;
+}
+
+
+#cart .goods {
+    width: 100%;
+    height: auto;
+    background: rgba(0,0,0,0.2);
+    margin-bottom: 15px;
+}
+
+#cart .goods table th, #cart .goods table td {
+    width: 360px;
+    height: 30px;
+    padding: 15px 0px;
+    font-size: 14px;
+    line-height: 30px;
+    color: white;
+    text-align: center;
+}
+
+#cart .option {
+    position: relative;
+    width: 100%;
+    height: 40px;
+}
+
+#cart .option .continue {
+    display: block;
+    width: 160px;
+    height: 30px;
+    margin: 5px 0px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 30px;
+    background-color: rgba(103, 193, 245, 0.2);
+    color: #67c1f5;
+    border-radius: 4px;
+}
+
+#cart .option input {
+    position: absolute;
+    display: block;
+    top: 0px;
+    right: 0px;
+    width: 80px;
+    height: 30px;
+    margin: 5px 0px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 30px;
+    background: linear-gradient( to bottom, rgba(121,153,5,1) 5%, rgba(83,105,4,1) 95%);
+    color: #D2E885;
+    border: none;
+    border-radius: 4px;
+}
+

@@ -1,0 +1,564 @@
+body {
+  background-color: #1B2838 ;
+}
+
+
+#banner {
+  height: 510px;
+  margin-top: 50px;
+  overflow: hidden;
+}
+
+#banner .recommend {
+  height: 40px;
+  margin-bottom: 20px;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+#banner .Avert {
+  float: left;
+  position: relative;
+  display: block;
+  width: 70%;
+  height: 450px;
+}
+
+#banner .Avert .pic {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+#banner .Avert img {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+
+/* Tiny Carousel */
+
+#banner .Avert .viewport {
+  float: left;
+  width: 240px;
+  height: 125px;
+  overflow: hidden;
+  position: relative;
+}
+#banner .Avert .buttons {
+  background: url("/images/product/b1.jpg") no-repeat scroll 0 0 transparent;
+  display: block;
+  margin: 30px 10px 0 0;
+  background-position: 0 -38px;
+  text-indent: -999em;
+  float: left;
+  width: 39px;
+  height: 37px;
+  overflow: hidden;
+  position: relative;
+}
+#banner .Avert .next {
+  background-position: 0 0;
+  margin: 30px 0 0 10px;
+}
+#banner .Avert .disable {
+  visibility: hidden;
+}
+#banner .Avert .overview {
+  list-style: none;
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  width: 240px;
+  left: 0; top: 0;
+}
+#banner .Avert .overview li {
+  float: left;
+  margin: 0 20px 0 0;
+  padding: 1px;
+  height: 121px;
+  border: 1px solid #dcdcdc;
+  width: 236px;
+}
+
+#banner .Avert .arrow {
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 100px;
+  top: 50%;
+  margin-top: -50px;
+  color: black;
+  text-align: center;
+  line-height: 100px;
+  font-size: 40px;
+}
+
+#banner .Avert .Left {
+  left: 0px;
+}
+
+#banner .Avert .Left:hover {
+  color: white;
+}
+
+#banner .Avert .Right {
+  right: 0px;
+}
+
+#banner .Avert .Right:hover {
+  color: white;
+}
+
+#banner .Avert .scroll {
+  position: absolute;
+  width: 100%;
+  height: 30px;
+  bottom: 0px;
+  text-align: center;
+}
+
+#banner .Avert .scroll .point {
+  display: inline-block;
+  width: 120px;
+  height: 10px;
+  margin-right: 20px;
+  border-radius: 5px;
+  background-color: gray;
+}
+
+#banner .Avert .scroll .point:hover {
+  background-color: white;
+}
+
+#banner .intro {
+  position: relative;
+  float: left;
+  width: 30%;
+  height: 450px;
+  background-color: #0f0f0f;
+}
+
+#banner .intro .name {
+  width: 100%;
+  height: 60px;
+  color: white;
+  font-size: 40px;
+  margin-top: 10px;
+  margin-left: 20px;
+  line-height: 70px;
+}
+
+#banner .intro img {
+  width: 155px;
+  height: 100px;
+  margin-right: 3px;
+  margin-top: 20px;
+}
+
+#banner .intro .status {
+  width: 100%;
+  height: 100px;
+  color: white;
+  font-size: 20px;
+  margin-left: 20px;
+  line-height: 100px;
+}
+
+#banner .intro .label {
+  display: inline-block;
+  height: 25px;
+  margin-left: 20px;
+  padding: 0 5px;
+  background-color: gray;
+  color: white;
+  font-size: 15px;
+  line-height: 25px;
+  border-radius: 2px;
+}
+
+#banner .intro .cost {
+  position: absolute;
+  bottom: 5px;
+  margin-left: 20px;
+}
+#banner .intro .cost .discount {
+  background-color: yellowgreen;
+  color: white;
+  font-size: 15px;
+}
+
+#banner .intro .cost .origin {
+  background-color: black;
+  color: #bedcfa;
+  text-decoration: line-through;
+  font-size: 15px;
+}
+
+#banner .intro .cost .now {
+  background-color: black;
+  color: #bedcfa;
+  font-size: 15px;
+}
+
+#classification {
+  height: 320px;
+  margin-top: 50px;
+  overflow: hidden;
+}
+
+#classification .title {
+  height: 40px;
+  font-size: 25px;
+  line-height: 40px;
+  margin: 5px 0;
+  color: #ffffff;
+}
+
+#classification .holder {
+  height: 50px;
+}
+
+#classification .holder .type {
+  position: relative;
+  float: left;
+  display: block;
+  box-sizing: border-box;
+  width: 250px;
+  height: 250px;
+  margin-right: 20px;
+  font-size: 25px;
+  color: #98acf8; 
+  transition: all 0.5s;
+}
+
+#classification .holder .type div {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  line-height: 250px;
+  background-color: rgba(0,255,255,0.2);
+  transition: all 0.5s;
+}
+
+#classification .holder .type div:hover {
+  width: 270px;
+  height: 270px;
+  line-height: 270px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#classification .holder .type:hover {
+  color: #65d6ce;
+  width: 270px;
+  height: 270px;
+  margin-right: 0px;
+}
+
+
+#Type {
+  height: 470px;
+  margin-top: 60px;
+}
+
+#Type h2 {
+  height: 40px;
+  font-size: 25px;
+  line-height: 40px;
+  color: #ffffff;
+}
+
+#Type .holder {
+  height: 400px;
+  overflow: hidden;
+}
+
+#Type .holder .lead {
+  position: relative;
+  box-sizing: border-box;
+  float: left;
+  width: 310px;
+  height: 400px;
+  margin-right: 5px;
+  background: linear-gradient( to top left, #282f14 15.74%, #665e22 100% );
+}
+
+#Type .holder .lead span {
+  position: absolute;
+  left: 10px;
+  top: 45%;
+  font-size: 30px;
+  color: white;
+}
+
+#Type .holder .game {
+  box-sizing: border-box;
+  float: left;
+  width: 240px;
+  height: 300px;
+  margin-left: 15px;
+  margin-right: 20px;
+  margin-top: 50px;
+  background: rgba(0,0,0,0.2);
+}
+
+#Type .holder .right {
+  margin-right: 0;
+}
+
+#Type .holder .game .pic {
+  display: block;
+  width: 100%;
+  height: 130px;
+}
+
+#Type .holder .game .pic img {
+  width: 100%;
+  height: 100%;
+}
+
+#Type .holder .game .mid {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  height: 40px;
+  border-bottom: 1px solid #8091a2;
+}
+
+#Type .holder .game .mid span {
+  display: block;
+  height: 40px;
+  text-indent: 0.5em;
+  line-height: 40px;
+  font-size: 17px;
+  color: #8091a2;
+}
+
+#Type .holder .game .mid .price {
+  display: inline-block;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  padding: 0px 10px;
+  margin: 5px 5px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 15px;
+  background-color: #03506f;
+  color: #bedcfa;
+}
+
+#Type .holder .game .label {
+  width: 100%;
+  height: 30px;
+  margin: 5px 0;
+}
+
+#Type .holder .game .label span {
+  display: inline-block;
+  padding: 0px 5px;
+  height: 20px;
+  line-height: 20px;
+  background-color: rgba(103, 193, 245, 0.2);
+  color: #67c1f5;
+  font-size: 12px;
+  border-radius: 2px;
+  margin: 40px 10px 5px;
+}
+
+.more {
+  position: relative;
+  width: 100%;
+  height: 30px;
+}
+
+.more a {
+  position: absolute;
+  display: inline-block;
+  right: 0px;
+  bottom: 0px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 20px;
+  color: gray;
+}
+
+.more a:hover {
+  color: white;
+}
+
+#tans {
+  position: relative;
+  height: 200px;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+#tans img {
+  width: 1000px; 
+  height: 180px;
+  margin: 10px 40px;
+  transition: all 0.5s;
+}
+
+#tans span {
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  font-size: 25px;
+  color: white;
+}
+
+#tans img:hover {
+  width: 1080px;
+  height: 200px;
+  margin: 0 0;
+}
+
+#discount {
+  height: 650px;
+  margin-top: 100px;
+}
+
+#discount h2 {
+  box-sizing: border-box;
+  width: 250px;
+  height: 40px;
+  margin-bottom: 30px;
+  font-size: 30px;
+  line-height: 40px;
+  color: white;
+}
+
+#discount .holder {
+  width: 100%;
+  height: 550px;
+  overflow: hidden;
+}
+
+#discount .holder .example {
+  box-sizing: border-box;
+  float: left;
+  width: 350px;
+  margin-right: 15px;
+  background: rgba(0,0,0,0.2);
+}
+
+#discount .holder .big {
+  height: 550px;
+  color: #bedcfa;
+}
+
+#discount .holder .small {
+  height: 270px;
+  margin-right: 0px;
+}
+
+#discount .holder .top {
+  margin-bottom: 10px;
+}
+
+#discount .holder .big a {
+  display: block;
+  height: 400px;
+}
+
+#discount .holder .big a img {
+  width: 100%;
+  height: 100%;
+}
+
+#discount .holder .big .label {
+  box-sizing: border-box;
+  height: 60px;
+  padding-left: 15px;
+  line-height: 60px;
+  font-size: 25px;
+}
+
+#discount .holder .big .ddl {
+  box-sizing: border-box;
+  height: 30px;
+  padding-left: 15px;
+  line-height: 30px;
+  font-size: 15px;
+}
+
+#discount .holder .price {
+  height: 35px;
+  margin: 12.5px 15px;
+}
+
+#discount .holder .price .sale {
+  float: left;
+  display: inline-block;
+  width: 70px;
+  height: 35px;
+  background-color: #61b15a;
+  color: #adce74;
+  font-size: 25px;
+  line-height: 35px;
+}
+
+#discount .holder .price .p {
+  float: left;
+  width: 50px;
+  height: 35px;
+  background-color: #0a043c;
+  text-align: center;
+}
+
+#discount .holder .price .p .origin {
+  width: 50px;
+  text-decoration: line-through;
+  font-size: 12px;
+  color: #03506f;
+}
+
+#discount .holder .price .p .now {
+  width: 50px;
+  font-size: 15px;
+  color: #d0e8f2;
+}
+
+#discount .holder .small a {
+  display: block;
+  width: 100%;
+  height: 210px;
+}
+
+#discount .holder .small img {
+  width: 100%;
+  height: 100%;
+}
+
+#discount .holder .small .sale,
+#discount .holder .small .p {
+  float: right;
+}
+
+
+.totop {
+  position: fixed;
+  left: 50%;
+  margin-left: 600px;
+  bottom: 40px;
+  display: block;
+  width: 60px;
+  height: 60px;
+  font-size: 40px;
+  line-height: 60px;
+  text-align: center;
+  background: rgba(103, 193, 245, 0.2);
+  color: #67c1f5;
+  border-radius: 2px;
+}
+
+.totop:hover {
+  color: white;
+}
