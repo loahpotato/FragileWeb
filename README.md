@@ -1,8 +1,4 @@
-# 订单管理系统 smbms 狂神说Java
-
-#### 介绍
- 狂神说Java  Javaweb练习项目 JSP 订单管理系统
-
+# Fragile游戏商店
 
 
 #### 安装教程
